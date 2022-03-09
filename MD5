@@ -1,0 +1,12 @@
+6cbf8939029cd05f77c85032b46f3fd8 *DESCRIPTION
+4bafe2341be9c0a50c1e8b25f50c4092 *NAMESPACE
+9dbd178229ccc8f45fece1d5d7d16303 *R/data.R
+9b33548daec5408f84f528782edc2b05 *R/imports.R
+49e3636054cb964985700a07911d06bb *R/valuemap.R
+523f30e5acfe79737212e1d36ad7caf5 *README.md
+6d07175299abde97f7f7a1b20ae087ab *data/seoul.rda
+eb455832baadee42d95a8ce7242cb844 *data/seoul_h3.rda
+049bc84e3ed47e47633482b9b0975502 *man/seoul.Rd
+92d069a67c04df7e4f9beefb8aafc92e *man/seoul_h3.Rd
+d5db3a9f67ee2d17811f847765ad0ff3 *man/valuemap.Rd
+df85fb7d601c96a3cf3cdf1fedee654f *man/valuemap_h3.Rd
