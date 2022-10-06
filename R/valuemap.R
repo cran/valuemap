@@ -114,8 +114,7 @@ valuemap <- function(data,
 #'
 #' @examples
 #' if (interactive()){
-#'   seoul_h3 %>%
-#'     valuemap_h3(legend.cut=1:6, show.text=FALSE)
+#'   valuemap_h3(seoul_h3, legend.cut=1:6, show.text=FALSE)
 #' }
 valuemap_h3 <- function(data,
                         map=providers$OpenStreetMap,
@@ -127,7 +126,7 @@ valuemap_h3 <- function(data,
 
   sf_data <-
     data %>%
-    mutate(geometry = h3jsr::h3_to_polygon(data$name)) %>%
+    mutate(geometry = h3jsr::cell_to_polygon(data$name)) %>%
     st_as_sf
 
   valuemap(
